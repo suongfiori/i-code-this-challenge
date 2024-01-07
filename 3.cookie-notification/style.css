@@ -127,9 +127,10 @@ a {
   padding: 1em 2em;
 }
 
-.notification-container .cookie {
-  width: 80px;
-  height: 80px;
+.notification-container img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
   margin: 1.5rem;
 }
 
