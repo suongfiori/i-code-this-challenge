@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-dziDNLjbA6jtv9vH0Ilhho9Z3zVbMzXylbzmZU+L8qlKOj/K5Xhf2oGb7dU2oObB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Cookie Notification</title>
+  </head>
+  <body>
+      <section class="container centered">
+        <div class="banner centered">
+          <p>We are now part of Salesforce. <a href="#" target="_blank" class="underline">Learn why we're even better together</a></p>
+          <i class='bx bx-x close-btn'></i>
+        </div>
+        <div class="notification-container centered">
+          <i class='bx bx-x close-btn'></i>
+          <img src="cookie1.png" class="cookie" />
+          <p>By "Accept all the cookies the storing of cookies on your device", you agree to enhance navigation, analyze site usage, and assist in our marketing efforts.
+          <span class="underline"><a href="#" target="_blank" class="underline">More info</a></span></p>
+
+          <div class="btns">
+            <button id="btn">Accept cookies</button>
+            <button id="btn">Decline cookies</button>
+          </div>
+          <div class="notification-settings">
+            <a href="#" target="_blank" class="underline">Cookie settings</a>
+          </div>
+        </div>
+      </section>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
